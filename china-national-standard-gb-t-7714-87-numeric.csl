@@ -355,11 +355,7 @@
   </macro>
   <!-- 引用日期 -->
   <macro name="accessed-date">
-    <choose>
-      <if variable="URL DOI" match="any">
-        <date variable="accessed" form="numeric" prefix="[" suffix="]"/>
-      </if>
-    </choose>
+    <!-- 已禁用访问日期显示 -->
   </macro>
   <!-- 获取和访问路径、数字对象唯一标识符 -->
   <macro name="access">
